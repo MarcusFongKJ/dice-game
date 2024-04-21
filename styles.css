@@ -1,8 +1,63 @@
 body {
     background-color: rgb(52, 53, 62);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    height: 100vh;
 }
 
 .btn {
     color: aliceblue;
+    font-size: 30px;
+}
+
+#roll-dice {
+    font-size: 38px;
+}
+
+#dice-area {
+    height: 70vh;
+}
+
+@media (max-width: 1000px) {
+    img {
+      max-width: 160px;
+    }
+    .btn {
+        font-size: 24px;
+    }
+    #roll-dice {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 770px) {
+    .btn {
+        font-size: 20px;
+    }
+    #roll-dice {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 600px) {
+    img {
+      max-width: 100px;
+    }
+    .btn {
+        font-size: 16px;
+    }
+    #roll-dice {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 390px) {
+    img {
+      max-width: 80px;
+    }
+    .btn {
+        font-size: 12px;
+    }
+    #roll-dice {
+        font-size: 20px;
+    }
 }
