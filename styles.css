@@ -5,12 +5,17 @@ body {
 }
 
 .btn {
-    color: aliceblue;
     font-size: 30px;
 }
 
-#roll-dice {
+#roll-dice-btn {
     font-size: 38px;
+    background-color: transparent;
+    border: 0px;
+}
+
+.btn, #roll-dice-btn {
+    color: aliceblue;
 }
 
 #dice-area {
@@ -24,7 +29,7 @@ body {
     .btn {
         font-size: 24px;
     }
-    #roll-dice {
+    #roll-dice-btn {
         font-size: 32px;
     }
 }
@@ -33,7 +38,7 @@ body {
     .btn {
         font-size: 20px;
     }
-    #roll-dice {
+    #roll-dice-btn {
         font-size: 28px;
     }
 }
@@ -45,7 +50,7 @@ body {
     .btn {
         font-size: 16px;
     }
-    #roll-dice {
+    #roll-dice-btn {
         font-size: 24px;
     }
 }
@@ -57,7 +62,7 @@ body {
     .btn {
         font-size: 12px;
     }
-    #roll-dice {
+    #roll-dice-btn {
         font-size: 20px;
     }
 }

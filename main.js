@@ -1,4 +1,4 @@
-const rollButton = document.querySelector('#roll-dice');
+const rollButton = document.querySelector('#roll-dice-btn');
 const oneDice = document.querySelector('#one');
 const twoDice = document.querySelector('#two');
 const threeDice = document.querySelector('#three');
